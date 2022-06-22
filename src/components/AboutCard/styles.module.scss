@@ -1,0 +1,18 @@
+.aboutCardContainer {
+  width: 100%;
+  height: fit-content;
+
+  padding: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+
+  background: #302F3D;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  p {
+    color: #837E9F;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}

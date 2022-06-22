@@ -1,0 +1,14 @@
+.contentWrapper {
+  max-width: 1360px;
+  height: fit-content;
+  margin: 60px auto;
+
+  display: grid;
+  grid-template-columns: 348px 1fr;
+  column-gap: 60px;
+}
+
+.leftSideBar {
+  display: grid;
+  gap: 30px;
+}

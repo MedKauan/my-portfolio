@@ -1,0 +1,82 @@
+.projectCardContainer {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-bottom: 15px;
+
+  background: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+
+  &:hover {
+    background: #3A394A;
+    transition: 0.2s;
+  }
+}
+
+.projectCardHeader {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  h2 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #837E9F;
+    text-decoration: underline;
+  }
+}
+
+.projectCardDescription {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+  color: #837E9F;
+}
+
+.projectCardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .projectCardGitInfo {
+    width: 35%;
+
+    display: flex;
+    justify-content: space-between;
+
+    .projectCardIcons {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.projectCardIcon {
+  width: 24px;
+  height: 24px;
+  color: #837E9F;
+  margin-right: 8px;
+
+  span {
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+}
+
+.projectCardLanguage {
+  display: flex;
+  align-items: center;
+
+  .projectCardLanguageColor {
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    border: 2px solid #837E9F;
+
+    margin-right: 8px;
+  }
+}

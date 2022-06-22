@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Merriweather Sans, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  color: #e1e1e6;
+  background-color: #22212c;
+}
+
+span,
+strong {
+  color: #837e9f;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #837e9f;
+}

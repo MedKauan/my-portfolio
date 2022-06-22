@@ -1,0 +1,37 @@
+.infoCardContainer {
+  width: 100%;
+  height: fit-content;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background-color: #302F3D;
+
+  ul {
+    margin: 10px 40px;
+    display: flex;
+    flex-direction: column;
+
+    li {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+
+      &:first-child {
+        margin-top: 20px
+      }
+
+      .infoCardIconList {
+        width: 24px;
+        height: 24px;
+        color: #837E9F;
+        margin-right: 20px;
+      }
+
+      a {
+        font-weight: 400;
+        font-size: 0.75rem;
+        color: #837E9F;
+        text-decoration: none;
+      }
+    }
+  }
+}

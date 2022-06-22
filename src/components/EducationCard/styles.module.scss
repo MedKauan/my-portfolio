@@ -1,0 +1,38 @@
+.educationCardContainer {
+  width: 100%;
+  height: fit-content;
+  padding: 30px 30px 15px 30px;
+  border-radius: 20px;
+  background-color: #302F3D;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+  h1 {
+    margin-bottom: 20px;
+  }
+}
+
+
+.educationCardList {
+  list-style: disc;
+  color: #837E9F;
+  margin-left: 6%;
+
+  li {
+    margin-bottom: 15px;
+
+    strong {
+      font-size: 0.875rem;
+      font-weight: 700;
+    }
+  }
+}
+
+.educationCardInfo {
+  display: flex;
+  flex-direction: column;
+
+  span {
+    font-size: 0.75rem;
+    font-weight: 300;
+  }
+}
