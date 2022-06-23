@@ -13,11 +13,24 @@
   background: #302F3D;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
-  h1 {
-    font-weight: 700;
-    font-size: 1.25rem;
-    color: #837E9F;
+  .titleCardTitle {
+    display: flex;
+    align-items: center;
+
+    .titleCardIcon {
+      width: 24px;
+      height: 24px;
+      color: #837E9F;
+      margin-right: 8px;
+    }
+
+    h1 {
+      font-weight: 700;
+      font-size: 1.25rem;
+      color: #837E9F;
+    }
   }
+
 
   a {
     font-weight: 400;
