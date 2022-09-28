@@ -17,7 +17,8 @@
   justify-content: center;
 }
 
-.technologyCard {
+.technologyCard,
+.technologyCardMainly {
   width: 86px;
   height: 24px;
   background: #CB92B1;
@@ -28,9 +29,32 @@
   align-items: center;
   justify-content: center;
 
+  &Mainly {
+    background: #8a80ff;
+  }
+
   strong {
     font-weight: 700;
     font-size: 0.625rem;
     color: #000
+  }
+}
+
+.technologyCardSubtitleList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+
+  .technologyCardColor {
+    height: 0.75rem;
+    width: 0.75rem;
+    background-color: #8a80ff;
+    margin-right: 0.5rem;
+  }
+
+  .technologyCardDescription {
+    font-size: 0.75rem;
+    font-weight: 300;
   }
 }

@@ -9,13 +9,14 @@ export function AboutCard() {
         web portfolio 🙂
       </p>
       <p>
-        A sparkling, insightful and imaginative young web developer who is able
-        to work alongside other talented IT professionals in creating websites
-        and other IT Stuffs to the very highest standards. I have a high
-        knowledge of tech industry issues and trends, particularly in regard to
-        accessibility, usability, and Frameworks. I'm an ambitious sort who
-        wants to get noticed, and have the drive and massive energy needed to
-        really make a difference to a project.
+        I’m a sparkling, insightful and imaginative young web developer who is
+        achieving big goals, and charting paths to do so. I’m used to work
+        alongside other many types of IT professionals and always targeting to
+        the very highest standards. I have a high knowledge mainly in
+        accessibility, usability, and Frameworks to front-end development.
+        Within a company I often want to be noticed and feel like I’m making a
+        good difference in my team. So, I always direct a massive energy needed
+        to the project.
       </p>
       <br />
       <p>I'm current studying ReactJs and NodeJs for web development 💻 </p>
