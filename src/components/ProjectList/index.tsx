@@ -18,7 +18,7 @@ export function ProjectList() {
   useEffect(() => {
     axios
       .get<ProjectGitHubProps[]>(
-        'https://api.github.com/user/repos?sort="update"&per_page=6',
+        'https://api.github.com/user/repos?sort="update"&per_page=12',
         {
           headers: {
             authorization: `Bearer ${import.meta.env.VITE_ACCESS_TOKEN}`,
