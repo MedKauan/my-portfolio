@@ -13,12 +13,19 @@ interface ProjectGitHubProps {
 }
 
 export function ProjectList() {
+  const [seeMore, setSeeMore] = useState(true);
+  const [pageParameter, setPageParameter] = useState(6)
   const [projects, setProjects] = useState<ProjectGitHubProps[]>([]);
+
+  function changeState() {
+    setSeeMore((oldState) => !oldState);
+    setPageParameter(seeMore ? 12 : 6)
+  }
 
   useEffect(() => {
     axios
       .get<ProjectGitHubProps[]>(
-        'https://api.github.com/user/repos?sort="update"&per_page=12',
+        `https://api.github.com/user/repos?sort="update"&per_page=${pageParameter}`,
         {
           headers: {
             authorization: `Bearer ${import.meta.env.VITE_ACCESS_TOKEN}`,
@@ -28,7 +35,7 @@ export function ProjectList() {
       .then((response) => {
         setProjects(response.data);
       });
-  }, []);
+  }, [pageParameter]);
 
   return (
     <div className={styles.projectListContainer}>
@@ -43,6 +50,7 @@ export function ProjectList() {
           language={project.language}
         />
       ))}
+      {seeMore ? <button  onClick={changeState}>... See More</button> : <button  onClick={changeState}>... See Less</button>}
     </div>
   );
 }

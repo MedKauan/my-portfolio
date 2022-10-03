@@ -37,5 +37,9 @@
     font-size: 0.875rem;
     color: #837E9F;
     text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
