@@ -52,7 +52,7 @@ export function TechnologyCard() {
         <div className={styles.technologyCardSubtitleList}>
           <span className={styles.technologyCardColor}></span>
           <span className={styles.technologyCardDescription}>
-            Major Technologies
+            Favorite Technologies
           </span>
         </div>
       </div>

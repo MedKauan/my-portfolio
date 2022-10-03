@@ -56,7 +56,6 @@ export function ProjectCard({
             }}
             className={styles.projectCardLanguageColor}
           >
-            {}
           </span>
           <span>{language}</span>
         </div>
