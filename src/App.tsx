@@ -25,7 +25,7 @@ const educationCard: ProfessionalCardProps = {
   listInfo: [
     {
       listTitle: "FATEC Garça",
-      listSubTitle: "2020 - Current (3° Year)",
+      listSubTitle: "2020 - 2022",
       listDescription: "Systems development and analysis 🎓",
     },
     {
@@ -48,7 +48,7 @@ const experienceCard: ProfessionalCardProps = {
     {
       listTitle: "Interfocus Tecnologia",
       listSubTitle: "July 2021 - Current",
-      listDescription: "Junior Full Stack Developer",
+      listDescription: "Mid Level Full Stack Developer",
     },
     {
       listTitle: "Webline Sistemas",
